@@ -1,0 +1,17 @@
+{
+  "name": "dmx-proyectosass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7",
+    "sass": "^1.32.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

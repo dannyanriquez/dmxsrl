@@ -1,0 +1,500 @@
+/*BASE*/
+.noticias {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container .contact-info, .contact-container, .instagram-container, .noticias, .counter-box, .about-list, .Services-tab {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.counter-box, .service_tab_1, .contact-whatsapp img {
+  box-shadow: 5px 5px 10px black;
+}
+
+/*COMPONENTS*/
+.footer {
+  background-color: #252525;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  padding: 50px;
+  margin-top: 50px;
+}
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
+}
+.footer .footer-left .about {
+  line-height: 20px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+.footer .footer-left .about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footer .footer-left .icons {
+  margin-top: 25px;
+}
+.footer .footer-left .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+  color: #0672d0;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.footer .footer-center {
+  width: 30%;
+}
+.footer .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+.footer .footer-center i .fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+.footer .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+.footer .footer-center p a {
+  color: #0672d0;
+  text-decoration: none;
+}
+.footer .footer-right {
+  width: 35%;
+}
+.footer .footer-right h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+.footer .footer-right h2 span {
+  color: #0672d0;
+}
+.footer .footer-right .menu {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+.footer .footer-right .menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+.footer .footer-right .menu a:hover {
+  color: #0672d0;
+}
+.footer .footer-right .name {
+  color: #0672d0;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 14px;
+  }
+
+  .footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
+.contact-whatsapp img {
+  position: fixed;
+  width: 50px;
+  bottom: 20px;
+  right: 10px;
+  z-index: 9;
+  border-radius: 20px;
+}
+
+/*Header - Menu superior*/
+.header-menu {
+  overflow: hidden;
+  background-color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+.header-menu a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header-menu a:hover {
+  background-color: #252525;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+.header-menu a .logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header-right {
+  float: right;
+  text-decoration: none;
+  display: flex;
+  list-style-type: none;
+}
+.header-right .active {
+  background-color: #0672d0;
+  color: #f2f2f2;
+}
+
+/*Fin HEADER =================================================================================*/
+/*PORTADA =================================================================================*/
+.container-portada {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-image: url(../images/digital-mixer-in-a-recording-studio-close-up.jpg);
+  background-size: cover;
+  animation: movimiento 20s infinite linear alternate;
+}
+.container-portada .capa-gradient {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: -webkit-linear-gradient(left, black, #0672d0);
+  opacity: 0.5;
+}
+.container-portada .container-details {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+.container-portada .container-details .details {
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  top: 20px;
+  color: white;
+}
+.container-portada .container-details .details h1 {
+  font-size: 40px;
+  font-weight: 100;
+  margin-left: 10px;
+}
+.container-portada .container-details .details p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 10px;
+}
+.container-portada .container-details .details button {
+  color: #f2f2f2;
+  background: #252525;
+  font-size: 1em;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  transition: background 300ms;
+  cursor: pointer;
+}
+.container-portada .container-details .details button:hover {
+  color: #252525;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
+
+@keyframes movimiento {
+  from {
+    background-position: bottom left;
+  }
+  to {
+    background-position: top right;
+  }
+}
+@media screen and (max-width: 500px) {
+  .details p {
+    font-size: 18px;
+  }
+}
+/*BOX INFO*/
+.folded-corner {
+  padding: 60px 30px;
+  position: relative;
+  font-size: 100%;
+  text-decoration: none;
+  color: #f2f2f2;
+  background: transparent;
+  transition: all ease 0.5s;
+  border: 1px solid #252525;
+}
+.folded-corner:hover {
+  background-color: tomato;
+}
+.folded-corner:hover .text {
+  visibility: visible;
+  color: #252525;
+}
+
+.service_tab_1 {
+  background-color: #252525;
+}
+.service_tab_1:hover .fa-icon-image {
+  color: #252525;
+  transform: scale(1.1);
+}
+.service_tab_1 .text {
+  color: #f2f2f2;
+  text-align: center;
+}
+
+.fa-icon-image {
+  color: #f2f2f2;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  font-size-adjust: none;
+  font-stretch: normal;
+  text-rendering: auto;
+  transition: all 0.65s linear 0s;
+  text-align: center;
+  transition: all 1s cubic-bezier(0.99, 0.82, 0.11, 1.41);
+}
+
+/*=================================================================*/
+/*===============================================================*/
+/*SECTION INFO Y SERVICIOS */
+.about-list {
+  padding: 0;
+}
+.about-list .icon-box h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 10px 60px;
+}
+.about-list .icon-box i {
+  font-size: 48px;
+  float: left;
+  color: #252525;
+  margin-right: 10px;
+}
+.about-list .icon-box p {
+  font-size: 15px;
+  color: #252525;
+  margin-left: 60px;
+}
+.about-list .image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+/*=================================*/
+/*COUNTER UP*/
+.counter-box {
+  display: block;
+  background: #f2f2f2;
+  padding: 40px 20px 37px;
+  text-align: center;
+}
+.counter-box p {
+  margin: 5px 0 0;
+  padding: 0;
+  color: #252525;
+  font-size: 18px;
+  font-weight: 500;
+}
+.counter-box i {
+  font-size: 60px;
+  margin: 0 0 15px;
+  color: #252525;
+}
+.counter-box:hover {
+  background-color: #0672d0;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.counter {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  color: #252525;
+  line-height: 28px;
+}
+
+/*================================================*/
+/*BRANDS SECTION */
+.box {
+  padding: 40px 30px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  background-color: white;
+}
+.box:hover {
+  box-shadow: 2px 2px 10px #a5a5a5;
+  transform: scale(1.03);
+}
+
+.text-muted {
+  margin: 0;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.rounded-circle {
+  width: 120px;
+  height: 120px;
+}
+.rounded-circle .img-brand {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+}
+
+/*===========================================*/
+.noticias .notice-container {
+  display: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.noticias .notice-container .product img {
+  width: 300px;
+  height: 300px;
+}
+.noticias .notice-container .product-info {
+  display: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px 10px;
+}
+.noticias .notice-container .product-info button {
+  color: #f2f2f2;
+  background: #252525;
+  font-size: 1em;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  transition: background 300ms;
+  cursor: pointer;
+}
+.noticias .notice-container .product-info button:hover {
+  color: #252525;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
+
+/*REDES SOCIALES */
+.instagram-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+/*CONTACTO*/
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f2f2f2;
+}
+/*FORMULARIO*/
+.form-container {
+  border-radius: 4px;
+  background: #f2f2f2;
+  padding: 20px;
+  max-width: 800px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #252525;
+  color: #f2f2f2;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #0672d0;
+  border-radius: 4px;
+  color: #f2f2f2;
+}
+
+* {
+  font-family: "raleway", sans-serif;
+}
+
+.center-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

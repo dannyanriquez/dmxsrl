@@ -1,0 +1,29 @@
+@mixin flexbox ($display, $justify-content, $align-items, $flex-direction )  { 
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    flex-direction: $flex-direction;
+}
+    
+
+@mixin  button ( $color, $color-btn, $color-hover, $btn-hover) {
+    color: $color;
+    background: $color-btn;
+    font-size: 1em;
+    padding: 12px 20px;
+    border: none;
+    border-radius: $border-radius;
+    transition: background 300ms;
+    cursor: pointer;
+
+        &:hover {
+        color: $color-hover;
+        background-color: $btn-hover;
+        border-radius: $border-radius;
+        
+
+    }
+    
+}
+
+

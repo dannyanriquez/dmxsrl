@@ -1,0 +1,19 @@
+
+/*BASE*/
+@import "../base/variables";
+@import "../base/extends";
+@import "../base/mixins";
+@import "../base/maps";
+
+
+/*COMPONENTS*/
+@import "../components/footer";
+@import "../components/header";
+@import "../components/main";
+@import "../components/contact";
+
+
+
+@import "../MediaQuery/query";
+
+
