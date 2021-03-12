@@ -1,57 +1,58 @@
-
-
-
 /*Header - Menu superior*/
 
-.header-menu {
-    overflow: hidden;
-    background-color: white;
-    padding: 10px 10px;
-    text-decoration: none;
-
-    
-    a {
-        float: left;
-        color: black;
-        text-align: center;
-        padding: 12px;
-        text-decoration: none;
-        font-size: 18px;
-        line-height: 25px;
-        border-radius: $border-radius;
-
-        &:hover {
-            background-color: $color-primario;
-            color: $color-terciario;
-            cursor: pointer;
-           
-
-        }
-
-        .logo {
-            font-size: 25px;
-            font-weight: bold;
-
-        }
-
-        
-    }
-
-    
+#wrapper{
+    padding:90px 15px;
+}
+.navbar-expand-lg .navbar-nav.side-nav{
+    flex-direction: column;
 }
 
-.header-right {
-    float: right;
-    text-decoration: none;
-    display: flex;
-    list-style-type: none;
-
-    .active {
-        background-color: $color-secundario;
-        color: $color-terciario;
-    }
+.card {
+    margin-bottom: 15px;
+    border-radius:0; 
+    box-shadow: 0 3px 5px rgba(0,0,0,.1);
 }
 
+.header-top {
+    box-shadow: 0 3px 5px rgba(0,0,0,.1)
+}
+.leftmenutrigger {
+    display: none
+
+}
+@media (min-width:992px) {
+.leftmenutrigger{
+    display: block;
+    display: block;
+    margin: 7px 20px 4px 0;
+    cursor: pointer;
+}
+#wrapper {
+    padding: 90px 15px 15px 15px; 
+}
+
+.navbar-nav.side-nav.open {
+    left:0;
+}
+.navbar-nav.side-nav{
+    background: #585f66;
+    box-shadow: 2px 1px 2px rgba(0,0,0,.1);
+    position:fixed;
+    top:56px;
+    flex-direction: column!important;
+    left:-220px;width:200px;
+    overflow-y:auto;
+    bottom:0;overflow-x:hidden;
+    padding-bottom:40px
+}
+}
+.animate{
+    -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    -ms-transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out
+}
 
 
 

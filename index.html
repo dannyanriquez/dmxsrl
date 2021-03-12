@@ -27,18 +27,55 @@
 </head>
 <body>
     <header>
-        <div class="header-menu">
-            <a href="index.html" class="logo">DMX Sonido + Iluminación</a>
-            <ul class="header-right">
-              <li><a class="active" href="#index.html">Home</a></li>
-              <li><a href="#servicios">Servicios</a></li>
-              <li><a href="#venetian">Venetian</a></li>
-              <li><a href="#brands">Marcas</a></li>
-              <li><a href="#productos">Productos</a></li>
-              <li><a href="#noticias">Noticias</a></li>
-              <li><a href="#contacto">contacto</a></li>
-            </ul>
-        </div>
+        <div id="wrapper" class="animate">
+            <nav class="navbar header-top fixed-top navbar-expand-lg  navbar-dark bg-dark">
+                <span class="navbar-toggler-icon leftmenutrigger"></span>
+                <a class="navbar-brand" href="#">DMX SRL</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"></button>        
+                <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav animate side-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://venetianstore.com.ar" target="_blank">Venetian Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mercadoshop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-md-auto d-md-flex">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#venetian">Venetian</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#brands">Marcas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#noticias">Noticias</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>    
         <div class="container-portada">
             <div class="capa-gradient"></div>
             <div class="container-details">
@@ -59,7 +96,7 @@
     <!--BOX INFO-->
 
     <main>
-        <div class="container">
+        <div id="servicios"class="container">
             <div class="row">
                 <div class="col-md-4 Services-tab item">
                     <div class="folded-corner service_tab_1">
@@ -100,7 +137,7 @@
        
         <!-- SECTION INFO Y SERVICIOS -->
 
-        <section id="servicios" class="about-list">
+        <section class="about-list">
             <div class="container">
 
                 <div class="row">
