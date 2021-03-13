@@ -10,23 +10,8 @@
 
 }
 
-/*CONTACTO*/
-
-.contact-container {
-    @extend %margin;
-    @include flexbox (flex, space-around,center, column);
-   
-    background-color: $color-terciario;
-
-    .contact-info {
-        @extend %margin;
-    }
-}
-
 
 /*FORMULARIO*/
-
-
 
 
 .form-container {
