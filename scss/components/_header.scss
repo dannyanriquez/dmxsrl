@@ -7,6 +7,19 @@ ul li a{
   margin-right: 20px;
 }
 
+.bg-light {
+  background-color: $color-primario !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $color-terciario;
+
+  &:hover {
+    color: $color-secundario
+  }
+
+}
+
 
 
 /*Fin MENU =================================================================================*/
