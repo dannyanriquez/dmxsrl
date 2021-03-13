@@ -17,6 +17,8 @@ $(document).ready(function() {
     
 });
 
+/*FUNCIONES DEL CAROUSEL*/
+
     $( document ).ready(function() {
         $('.leftmenutrigger').on('click', function(e) {
         $('.side-nav').toggleClass("open");
@@ -27,6 +29,7 @@ $(document).ready(function() {
     interval: 3000,
  })
     
+/*FUNCIONES DEL MENU HEADER*/
 
  $(document).ready(function () {
     $('.navbar-light .dmenu').hover(function () {

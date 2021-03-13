@@ -48,7 +48,7 @@ ul li a{
     width: 100%;
     background-attachment: fixed;
 }
-#myCarousel h4{
+#myCarousel h1{
 	font-size:50px;
 	margin-bottom:15px;
 	color:$color-secundario;
@@ -65,7 +65,7 @@ ul li a{
 }
 
 
-#myCarousel .carousel-item h4{
+#myCarousel .carousel-item h1{
     -webkit-animation-name:fadeInLeft; 
     animation-name:fadeInLeft;
 }
@@ -83,7 +83,7 @@ ul li a{
     max-width:100%;
 }
 
-#myCarousel h4, #myCarousel p, #myCarousel a, #myCarousel .carousel-item .mask img{
+#myCarousel h1, #myCarousel p, #myCarousel a, #myCarousel .carousel-item .mask img{
     -webkit-animation-duration: 1s;
     animation-duration: 1.2s;
     -webkit-animation-fill-mode: both;
