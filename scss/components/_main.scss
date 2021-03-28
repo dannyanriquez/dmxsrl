@@ -5,11 +5,53 @@
 /*SERVICIOS*/
 
 .service {
-    background-color: #eeeeee;
+    background-color: $color-terciario;
     padding: 50px 50px;
     max-width: 100%;
 }
 
+/*COUNTER UP*/
+
+
+
+.counter-box {
+
+    @extend %margin;
+    display: block;
+    background: $color-terciario;
+    padding: 40px 20px 37px;
+    text-align: center;
+    @extend %box-shadow;
+
+    p {
+        margin: 5px 0 0;
+        padding: 0;
+        color: $color-primario;
+        font-size: 18px;
+        font-weight: 500
+    }
+
+    i {
+        font-size: 60px;
+        margin: 0 0 15px;
+        color: $color-primario
+    }
+
+    &:hover {
+        background-color: $color-secundario;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+}
+
+
+.counter {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    color: $color-primario;
+    line-height: 28px
+}
 
 /*===============================================================*/
 /*CATEGORIAS */
@@ -48,17 +90,6 @@
 
 /*===================================*/
 /*MENU PRODUCTS*/
-
-
-
-
-
-
-
-
-
-
-
 
 
 .about-list {
@@ -109,50 +140,6 @@
 
 /*=================================*/
 
-
-/*COUNTER UP*/
-
-
-
-.counter-box {
-
-    @extend %margin;
-    display: block;
-    background: $color-terciario;
-    padding: 40px 20px 37px;
-    text-align: center;
-    @extend %box-shadow;
-
-    p {
-        margin: 5px 0 0;
-        padding: 0;
-        color: $color-primario;
-        font-size: 18px;
-        font-weight: 500
-    }
-
-    i {
-        font-size: 60px;
-        margin: 0 0 15px;
-        color: $color-primario
-    }
-
-    &:hover {
-        background-color: $color-secundario;
-        cursor: pointer;
-        transform: scale(1.1);
-    }
-}
-
-
-.counter {
-    display: block;
-    font-size: 32px;
-    font-weight: 700;
-    color: $color-primario;
-    line-height: 28px
-}
-
 /*BOTONES*/
 .btn-primary {
     background-color: transparent;
@@ -166,19 +153,37 @@
 }
 
 /*================================================*/
-/*FIFINE SECTION */
+/*FIFINE  & ONEODIO SECTION */
 
 .brands {
-    min-height: 100vh;
-  
+    min-height: 100vh;  
+    .bg-brand {
+        background-color: white;
+    
+        img {
+            width: 250px;
+            height: auto;
+        }
+    }
 }
 
 
-.bg-brand {
-    background-color: white;
-}
 
+.iframe-container {
+    overflow: hidden;
+    /* 16:9 aspect ratio */
+    padding-top: 56.25%;
+    position: relative;
 
+    iframe {
+        border: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+     }
+  }
 
 /*===========================================*/
 
