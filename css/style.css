@@ -205,7 +205,7 @@ ul li a {
   background: rgba(0, 0, 0, 0.5);
   /* Black see-through */
   color: #f1f1f1;
-  width: 100%;
+  width: 97%;
   margin-right: auto;
   margin-left: auto;
   transition: 0.5s ease;
@@ -233,7 +233,7 @@ ul li a {
 .about-list .icon-box i {
   font-size: 48px;
   float: left;
-  color: #83fe00;
+  color: #252525;
   margin-right: 10px;
 }
 .about-list .icon-box p {
@@ -294,13 +294,13 @@ ul li a {
 }
 
 /*================================================*/
-/*BRANDS SECTION */
+/*FIFINE SECTION */
 .brands {
   min-height: 100vh;
 }
 
 .bg-brand {
-  background-color: black;
+  background-color: white;
 }
 
 /*===========================================*/
