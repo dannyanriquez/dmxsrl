@@ -3,7 +3,7 @@
 @import "../base/variables";
 @import "../base/extends";
 @import "../base/mixins";
-@import "../base/maps";
+
 
 
 /*COMPONENTS*/
@@ -11,9 +11,6 @@
 @import "../components/header";
 @import "../components/main";
 @import "../components/contact";
-
-
-
-@import "../MediaQuery/query";
+@import "../components/carousel";
 
 
