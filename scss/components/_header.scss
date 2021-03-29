@@ -3,10 +3,17 @@
 /*Header - Menu superior*/
 
 
-.social-part .fa {
-  padding-right:20px;
-  color: $color-secundario;
+.social-part {
+
+
+  .fa {
+    padding-right:20px;
+    color: $color-secundario;
+  }
+
 }
+
+
 ul li a{
   margin-right: 20px;
 }
@@ -22,6 +29,20 @@ ul li a{
     color: $color-secundario
   }
 
+}
+
+.dropdown-menu {
+  background-color: $color-primario;
+  color: $color-terciario;
+
+    .dropdown-item {
+      background-color: $color-primario;
+      color: $color-terciario;
+
+        &:hover {
+        color: $color-secundario
+        }
+    }
 }
 
 

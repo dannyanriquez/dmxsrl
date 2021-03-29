@@ -4,15 +4,22 @@
 
 
 * {
-    font-family: "raleway", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 
-.center-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+/*BOTONES*/
+.btn-primary {
+    background-color: transparent;
+    border-color: $color-secundario;
+
+    &:hover {
+        color: $color-primario;
+        background: $color-secundario;
+        border-color: transparent;
+    }
 }
 
 

@@ -179,6 +179,18 @@ ul li a {
   color: #83fe00;
 }
 
+.dropdown-menu {
+  background-color: #252525;
+  color: #eeeeee;
+}
+.dropdown-menu .dropdown-item {
+  background-color: #252525;
+  color: #eeeeee;
+}
+.dropdown-menu .dropdown-item:hover {
+  color: #83fe00;
+}
+
 /*Fin MENU =================================================================================*/
 /*SERVICIOS*/
 .service {
@@ -234,11 +246,10 @@ ul li a {
 .overlay {
   position: absolute;
   bottom: 0;
-  background: black;
   background: rgba(0, 0, 0, 0.5);
   /* Black see-through */
   color: #f1f1f1;
-  width: 97%;
+  width: 98%;
   margin-right: auto;
   margin-left: auto;
   transition: 0.5s ease;
@@ -282,19 +293,8 @@ ul li a {
 }
 
 /*=================================*/
-/*BOTONES*/
-.btn-primary {
-  background-color: transparent;
-  border-color: #83fe00;
-}
-.btn-primary:hover {
-  color: #252525;
-  background: #83fe00;
-  border-color: transparent;
-}
-
 /*================================================*/
-/*FIFINE  & ONEODIO SECTION */
+/* SECTION PARALLAX */
 .brands {
   min-height: 100vh;
 }
@@ -322,6 +322,89 @@ ul li a {
 }
 
 /*===========================================*/
+#parallax-world-of-ugg h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 70px;
+  letter-spacing: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  z-index: 10;
+  opacity: 0.9;
+}
+
+#parallax-world-of-ugg .parallax-one {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url(../banners/fifine-banner.png);
+}
+#parallax-world-of-ugg .parallax-two {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../banners/Banner-Onikuma-1400x620.png);
+}
+#parallax-world-of-ugg .parallax-three {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../banners/oneodio-banner.png);
+}
+#parallax-world-of-ugg .parallax-four {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../banners/venetian.jpg);
+}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 767px) {
+  #parallax-world-of-ugg h2 {
+    font-size: 30px;
+  }
+
+  #parallax-world-of-ugg .parallax-one,
+#parallax-world-of-ugg .parallax-two,
+#parallax-world-of-ugg .parallax-three {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
 .noticias .notice-container {
   display: center;
   justify-content: center;
@@ -428,14 +511,14 @@ input[type=submit]:hover {
   line-height: 100%;
   letter-spacing: 0.5px;
   font-weight: 600;
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
 #myCarousel p {
   font-size: 18px;
   margin-bottom: 15px;
   color: #eeeeee;
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
 #myCarousel .carousel-item h1 {
@@ -622,14 +705,20 @@ input[type=submit]:hover {
 }
 
 * {
-  font-family: "raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-.center-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
+/*BOTONES*/
+.btn-primary {
+  background-color: transparent;
+  border-color: #83fe00;
+}
+.btn-primary:hover {
+  color: #252525;
+  background: #83fe00;
+  border-color: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -68,10 +68,9 @@
 .overlay {
     position: absolute; 
     bottom: 0; 
-    background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5); /* Black see-through */
     color: #f1f1f1; 
-    width: 97%;
+    width: 98%;
     margin-right: auto;
     margin-left: auto;
     transition: .5s ease;
@@ -140,22 +139,18 @@
 
 /*=================================*/
 
-/*BOTONES*/
-.btn-primary {
-    background-color: transparent;
-    border-color: $color-secundario;
 
-    &:hover {
-        color: $color-primario;
-        background: $color-secundario;
-        border-color: transparent;
-    }
-}
 
 /*================================================*/
-/*FIFINE  & ONEODIO SECTION */
 
-.brands {
+
+
+
+/* SECTION PARALLAX */
+
+
+
+.brands {                          
     min-height: 100vh;  
     .bg-brand {
         background-color: white;
@@ -186,6 +181,102 @@
   }
 
 /*===========================================*/
+
+#parallax-world-of-ugg h2 {font-family:'Oswald', sans-serif; 
+    font-size:70px; letter-spacing:10px; 
+    text-align:center; color:white; 
+    font-weight:400; text-transform:uppercase; 
+    z-index:10; 
+    opacity:.9;
+}
+
+#parallax-world-of-ugg {
+
+    
+    .parallax-one {padding-top: 200px; 
+        padding-bottom: 200px; 
+        overflow: hidden; 
+        position: relative; 
+        width: 100%; 
+        background-attachment: fixed; 
+        background-size: cover; 
+        -moz-background-size: cover; 
+        -webkit-background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: top center;
+        background-image: url(../banners/fifine-banner.png); 
+
+        }
+    .parallax-two {
+        padding-top: 200px; 
+        padding-bottom: 200px; 
+        overflow: hidden; 
+        position: relative; 
+        width: 100%; 
+        background-attachment: fixed; 
+        background-size: cover; 
+        -moz-background-size: cover; 
+        -webkit-background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center center;
+        background-image: url(../banners/Banner-Onikuma-1400x620.png); 
+
+    }
+    .parallax-three {
+        padding-top: 200px; 
+        padding-bottom: 200px; 
+        overflow: hidden; 
+        position: relative; 
+        width: 100%;  
+        background-attachment: fixed; 
+        background-size: cover; 
+        -moz-background-size: cover; 
+        -webkit-background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center center;
+        background-image: url(../banners/oneodio-banner.png);
+
+    }
+
+    .parallax-four {
+        padding-top: 200px; 
+        padding-bottom: 200px; 
+        overflow: hidden; 
+        position: relative; 
+        width: 100%;  
+        background-attachment: fixed; 
+        background-size: cover; 
+        -moz-background-size: cover; 
+        -webkit-background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center center;
+        background-image: url(../banners/venetian.jpg);
+
+    }
+
+
+}
+
+/* Media Queries */
+/**************************/
+
+@media screen and (max-width: 767px) {
+
+  #parallax-world-of-ugg h2 {font-size:30px;}
+  #parallax-world-of-ugg .parallax-one, 
+  #parallax-world-of-ugg .parallax-two, 
+  #parallax-world-of-ugg .parallax-three {
+      padding-top:100px; padding-bottom:100px;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
