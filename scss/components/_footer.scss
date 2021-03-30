@@ -137,7 +137,6 @@
 
 }
 
-
   
   .footer .footer-left,
   .footer .footer-center,
@@ -146,9 +145,6 @@
     vertical-align: top;
   }
   
-
-  
- 
   
   @media (max-width: 767px) {
     .footer {
@@ -167,20 +163,3 @@
     }
   }
 
-
-
-
-.contact-whatsapp  {
-    
-    img {
-    
-    @extend %box-shadow;
-    
-    position: fixed;
-    width: 50px;
-    bottom: 20px;
-    right: 10px;
-    z-index: 9;
-    border-radius: 20px;
-    }
-}

@@ -9,7 +9,7 @@
   margin-bottom: 2em;
 }
 
-.counter-box, .contact-whatsapp img {
+.counter-box {
   box-shadow: 5px 5px 10px black;
 }
 
@@ -149,15 +149,6 @@
     margin-left: 0;
   }
 }
-.contact-whatsapp img {
-  position: fixed;
-  width: 50px;
-  bottom: 20px;
-  right: 10px;
-  z-index: 9;
-  border-radius: 20px;
-}
-
 /*Header - Menu superior*/
 .social-part .fa {
   padding-right: 20px;
