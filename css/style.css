@@ -704,6 +704,10 @@ input[type=submit]:hover {
   animation-name: slideInRight;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   font-family: "Montserrat", sans-serif;
   padding: 0;
