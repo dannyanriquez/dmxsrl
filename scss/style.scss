@@ -12,16 +12,11 @@ html {
 
 
 /*BOTONES*/
-.btn-primary {
-    background-color: transparent;
-    border-color: $color-secundario;
 
-    &:hover {
-        color: $color-primario;
-        background: $color-secundario;
-        border-color: transparent;
-    }
-}
+
+.button {
+    @include button ($color-secundario,$color-primario,$color-primario,$color-terciario)
+     }
 
 
 

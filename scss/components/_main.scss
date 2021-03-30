@@ -8,6 +8,7 @@
     background-color: $color-terciario;
     padding: 50px 50px;
     max-width: 100%;
+
 }
 
 /*COUNTER UP*/
@@ -34,11 +35,11 @@
     i {
         font-size: 60px;
         margin: 0 0 15px;
-        color: $color-primario
+        color: $color-primario;
+
     }
 
     &:hover {
-        background-color: $color-secundario;
         cursor: pointer;
         transform: scale(1.1);
     }
@@ -300,7 +301,7 @@
         margin: 5px 10px;
 
         button {
-            @include button ($color-terciario,$color-primario,$color-primario,$color-terciario)
+            @include button ($color-secundario,$color-primario,$color-primario,$color-terciario)
              }
 
         }

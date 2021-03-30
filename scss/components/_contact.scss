@@ -34,16 +34,7 @@ input[type=text], select, textarea {
 
 
 input[type=submit] {
-    background-color: $color-primario;
-    color: $color-terciario;
-    padding: 12px 20px;
-    border: none;
-    border-radius: $border-radius;
-    cursor: pointer;
+    
+    @include button ($color-secundario,$color-primario,$color-primario,$color-terciario)
 
-    &:hover {
-        background-color: $color-secundario;
-        border-radius: $border-radius;
-        color: $color-terciario;
-    }
 }
