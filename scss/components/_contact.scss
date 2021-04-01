@@ -36,5 +36,4 @@ input[type=text], select, textarea {
 input[type=submit] {
     
     @include button ($color-secundario,$color-primario,$color-primario,$color-terciario)
-
 }
