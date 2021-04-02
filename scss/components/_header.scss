@@ -24,11 +24,17 @@ ul li a{
 
 .navbar-light .navbar-nav .nav-link {
   color: $color-terciario;
+ 
 
   &:hover {
-    color: $color-secundario
+    color: $color-secundario;
+   
   }
 
+}
+
+.navbar-nav {
+  margin-left: 20px;
 }
 
 .dropdown-menu {
@@ -40,7 +46,8 @@ ul li a{
       color: $color-terciario;
 
         &:hover {
-        color: $color-secundario
+        color: $color-secundario;
+      
         }
     }
 }

@@ -183,13 +183,27 @@
 
 /*===========================================*/
 
-#parallax-world-of-ugg h2 {font-family:'Oswald', sans-serif; 
-    font-size:70px; letter-spacing:10px; 
-    text-align:center; color:white; 
-    font-weight:400; text-transform:uppercase; 
-    z-index:10; 
-    opacity:.9;
-}
+#parallax-world-of-ugg {
+    h2 {font-family:'Oswald', sans-serif; 
+        font-size:70px; letter-spacing:10px; 
+        text-align:center; color:white; 
+        font-weight:400; text-transform:uppercase; 
+        z-index:10; 
+        opacity:.9;
+    }
+
+    h3 {
+        font-family:'Oswald', sans-serif; 
+        font-size:50px; letter-spacing:10px; 
+        text-align:center; 
+        font-weight:400; text-transform:uppercase; 
+        z-index:10; 
+        opacity:.9;
+        color: $color-primario;
+        padding: 120px;
+        }
+    
+} 
 
 #parallax-world-of-ugg {
 
