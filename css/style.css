@@ -287,7 +287,6 @@ ul li a {
 }
 
 /*=================================*/
-/*================================================*/
 /* SECTION PARALLAX */
 .brands {
   min-height: 100vh;
@@ -337,7 +336,7 @@ ul li a {
   z-index: 10;
   opacity: 0.9;
   color: #252525;
-  padding: 120px;
+  margin: 90px 0px;
 }
 
 #parallax-world-of-ugg .parallax-one {
@@ -404,6 +403,11 @@ ul li a {
     font-size: 30px;
   }
 
+  /*ACHICA LETRA EN RESPONSIVE*/
+  #parallax-world-of-ugg h3 {
+    font-size: 30px;
+  }
+
   #parallax-world-of-ugg .parallax-one,
 #parallax-world-of-ugg .parallax-two,
 #parallax-world-of-ugg .parallax-three {
@@ -411,6 +415,30 @@ ul li a {
     padding-bottom: 100px;
   }
 }
+/*===================================================*/
+/*CAROUSEL NOTICIAS DESTACADAS*/
+#productos {
+  font-family: "Oswald", sans-serif;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.viewmore {
+  font-size: 0.75rem;
+  letter-spacing: 0;
+  line-height: 1;
+  font-weight: 300;
+  color: #252525;
+  text-transform: uppercase;
+  display: inline-block;
+  height: auto;
+  padding: 0;
+  vertical-align: baseline;
+  background-color: transparent;
+}
+
 .noticias .notice-container {
   display: center;
   justify-content: center;
@@ -740,6 +768,19 @@ html {
   color: #252525;
   background-color: #eeeeee;
   border-radius: 4px;
+}
+
+/*BOTON IR ARRIBA*/
+.ir-arriba {
+  display: none;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  z-index: 2;
 }
 
 /*# sourceMappingURL=style.css.map */

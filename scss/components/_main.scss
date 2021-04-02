@@ -8,13 +8,9 @@
     background-color: $color-terciario;
     padding: 50px 50px;
     max-width: 100%;
-
 }
 
 /*COUNTER UP*/
-
-
-
 .counter-box {
 
     @extend %margin;
@@ -82,11 +78,9 @@
     text-align: center;
 }
 
-
 .ctn:hover .overlay {
     opacity: 1;
 }
-
 
 /*===================================*/
 /*MENU PRODUCTS*/
@@ -96,8 +90,6 @@
     @extend %margin;
     padding: 0;
    
-    
-
     .icon-box {
         
 
@@ -134,22 +126,9 @@
     
 }
 
-
-
-
-
 /*=================================*/
 
-
-
-/*================================================*/
-
-
-
-
 /* SECTION PARALLAX */
-
-
 
 .brands {                          
     min-height: 100vh;  
@@ -162,8 +141,6 @@
         }
     }
 }
-
-
 
 .iframe-container {
     overflow: hidden;
@@ -184,23 +161,28 @@
 /*===========================================*/
 
 #parallax-world-of-ugg {
-    h2 {font-family:'Oswald', sans-serif; 
+    h2 {
+        font-family:'Oswald', sans-serif; 
         font-size:70px; letter-spacing:10px; 
-        text-align:center; color:white; 
-        font-weight:400; text-transform:uppercase; 
+        text-align:center; 
+        color:white; 
+        font-weight:400; 
+        text-transform:uppercase; 
         z-index:10; 
         opacity:.9;
     }
 
     h3 {
         font-family:'Oswald', sans-serif; 
-        font-size:50px; letter-spacing:10px; 
+        font-size:50px; 
+        letter-spacing:10px; 
         text-align:center; 
-        font-weight:400; text-transform:uppercase; 
+        font-weight:400; 
+        text-transform:uppercase; 
         z-index:10; 
         opacity:.9;
         color: $color-primario;
-        padding: 120px;
+        margin: 90px 0px;
         }
     
 } 
@@ -277,7 +259,8 @@
 
 @media screen and (max-width: 767px) {
 
-  #parallax-world-of-ugg h2 {font-size:30px;}
+  #parallax-world-of-ugg h2 {font-size:30px;} /*ACHICA LETRA EN RESPONSIVE*/
+  #parallax-world-of-ugg h3 {font-size:30px;}
   #parallax-world-of-ugg .parallax-one, 
   #parallax-world-of-ugg .parallax-two, 
   #parallax-world-of-ugg .parallax-three {
@@ -285,11 +268,31 @@
     }
 }
 
+/*===================================================*/
 
+/*CAROUSEL NOTICIAS DESTACADAS*/
 
+#productos {
+    font-family: "Oswald", sans-serif;
+}
 
+.card-title {
+    font-weight: bold;
+}
 
-
+.viewmore {
+    font-size: .75rem;
+    letter-spacing: 0;
+    line-height: 1;
+    font-weight: 300;
+    color: $color-primario;
+    text-transform: uppercase;
+    display: inline-block;
+    height: auto;
+    padding: 0;
+    vertical-align: baseline;
+    background-color: transparent;
+}
 
 
 
@@ -321,6 +324,9 @@
         }
     }
  }
+
+
+
 
 
 
